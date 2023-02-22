@@ -74,7 +74,11 @@ header nav ul li a{
 main{
   /* modificare il padding per le distanze laterali */
 	padding: 50px 20px;
-	/* text-align: center; */
+}
+
+main .row{
+  /* display: flex; */
+	text-align: center;
 }
 
 main .row .product{
@@ -155,26 +159,33 @@ main .content .price .over{
 }
 
 
-
-
-/* per il tutto maiuscolo */
-/* text-transform: uppercase; */
-
-
 /* FOOTER */
 
 footer{
-  display: flex;
-  justify-content: center;
-
-
-  height: 80px;
+  height: 100px;
   width: 100%;
   color: white;
 
   font-weight: bold;   /* da valutare */
 
-  /* background-color: #1a1a1a; */
+  background-color: #1a1a1a;
+}
+
+footer .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+}
+
+footer .text span{
+  font-size: 10px;
+  font-weight: normal;
+}
+
+footer .social{
+  
 }
 
 footer nav ul{
